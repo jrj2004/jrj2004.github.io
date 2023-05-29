@@ -1,2 +1,15 @@
-
-    
+img{
+    background: none;
+    float: left;
+}
+body{
+    font-family:'Playfair', serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+nav{
+    margin-left:1000px;
+}
