@@ -4,12 +4,59 @@ img{
 }
 body{
     font-family:'Playfair', serif;
+    background-color: #F7F7F7;
 }
 *{
     margin: 0;
     padding: 0;
     border: 0;
 }
+
+
+h1{
+    font-family: 'Playfair', serif;
+    font-size: 100px;
+    color: black;
+}
+.Home{
+    font-family: 'Playfair', serif;
+    font-size: 40px;
+    margin-left: 800px;
+    color: black;
+}
+a::link{
+    text-decoration: none;
+    color: white;
+}
+a::visited{
+    text-decoration: none;
+    color:white;
+}
+
 nav{
-    margin-left:1000px;
+    margin-left:60%;
+    margin-right:auto;
+    border-style: solid #929AAB; 
+}
+
+nav:after{
+    clear:both;
+    content:"";
+    display: table;
+}
+
+ul{
+    list-style: none;
+    border-radius: 50px;
+    background-color: #929AAB;
+}
+nav ul li{
+    padding-left: 5%;
+    padding-right: 5%;
+    float: left;
+    width: 10%;
+    margin: auto;
+    border: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
