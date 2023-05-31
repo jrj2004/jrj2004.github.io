@@ -1,144 +1,46 @@
-img{
-    background: none;
-    float: left;
-}
-body{
-    font-family:'Playfair', serif;
-    background-color: #F7F7F7;
-}
 *{
     margin: 0;
-    padding: 0;
-    border: 0;
+    padding:0;
+    font-family:'Righteous', cursive; 
+    box-sizing: border-box;
 }
-
-
-h1{
-    font-family: 'Playfair', serif;
-    font-size: 100px;
-    color: black;
-}
-.Home{
-    font-family: 'Playfair', serif;
-    font-size: 40px;
-    margin-left: 800px;
-    color: black;
-}
-a::link{
-    text-decoration: none;
-    color: white;
-}
-a::visited{
-    text-decoration: none;
+body{
+    background-color: #393E46;
     color:white;
 }
-.Projects a{
-    color: black;
+#header{
+    width:100%;
+    height:100vh;
+}
+.container{
+    padding:10px 10%;  
 }
 nav{
-    margin-left:60%;
-    margin-right:auto;
-    border: 1px solid #d6d9df;
-    border-radius: 60px;
-    background-color: #d6d9df;
-    text-align: center;
-    padding: 0%;
-    margin-top: 2%;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
-nav:after{
-    clear:both;
+.logo{
+    width:200px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;  
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
     content:"";
-    display: table;
-}
-
-.nav{
-    list-style: none;
-    border-radius: 50px;
-    background-color: #929AAB;
-    text-align: center;
-    color: black;
-    padding: 0%;
-}
-nav .nav .nav-li{
-    padding-top: 18px;
-padding-left: 20px;
-    float: left;
-    width: 10%;
-    margin-left: 15px;
-    text-align: center;
-    list-style: none;
-}
-.nav-li{
-    color: black;
-}
-.Home-abt{
-    background-color: #929AAB;
-    padding-top: 300px;
-    padding-bottom: 300px;
-}
-.Home-abt h1{
-    text-align: left;
-    padding-top: 20px;
-}
-
-.About{
-    background-color: #393E46;
-    color:white;
-    padding-top: 300px;
-    padding-bottom: 300px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.About h2,p{
-    color: white;
-}
-.Contact{
-    background-color: #929AAB;
-    color:white;
-    padding-top: 300px;
-    padding-bottom: 300px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-}
-.Projects {
-    background-color: #929AAB;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-    font-size: x-large;
-}
-.Certificates{
-    background-color: #393E46;
-    padding-top: 300px;
-    padding-bottom: 300px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-    color:white;
-}
-
-.Certificates a{
-    color: #fff;
-}
-
-li{
-    color: white;
-    list-style: none;
-}
-
-
-.projects-li li a{
-    color: #fff;
-}
-header{
-    background-color: #929AAB;
-    padding-top: 10px;
-}
-.Contact h2 .contact-p{
-    font-size: 50px;
+    width:0;
+    height:3px;
+    background: #19A7CE;
+    position:absolute;
+    left: 0;
+    bottom: -6px;
 }
