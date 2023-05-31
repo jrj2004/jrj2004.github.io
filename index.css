@@ -32,11 +32,19 @@ a::visited{
     text-decoration: none;
     color:white;
 }
-
+.Projects a{
+    color: black;
+}
 nav{
     margin-left:60%;
     margin-right:auto;
-    border-style: solid #929AAB; 
+    border: 1px solid #d6d9df;
+    border-radius: 60px;
+    background-color: #d6d9df;
+    text-align: center;
+    padding: 0%;
+    margin-top: 2%;
+
 }
 
 nav:after{
@@ -45,18 +53,92 @@ nav:after{
     display: table;
 }
 
-ul{
+.nav{
     list-style: none;
     border-radius: 50px;
     background-color: #929AAB;
+    text-align: center;
+    color: black;
+    padding: 0%;
 }
-nav ul li{
-    padding-left: 5%;
-    padding-right: 5%;
+nav .nav .nav-li{
+    padding-top: 18px;
+padding-left: 20px;
     float: left;
     width: 10%;
-    margin: auto;
-    border: 0;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    margin-left: 15px;
+    text-align: center;
+    list-style: none;
+}
+.nav-li{
+    color: black;
+}
+.Home-abt{
+    background-color: #929AAB;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+.Home-abt h1{
+    text-align: left;
+    padding-top: 20px;
+}
+
+.About{
+    background-color: #393E46;
+    color:white;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.About h2,p{
+    color: white;
+}
+.Contact{
+    background-color: #929AAB;
+    color:white;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.Projects {
+    background-color: #929AAB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+.Certificates{
+    background-color: #393E46;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    color:white;
+}
+
+.Certificates a{
+    color: #fff;
+}
+
+li{
+    color: white;
+    list-style: none;
+}
+
+
+.projects-li li a{
+    color: #fff;
+}
+header{
+    background-color: #929AAB;
+    padding-top: 10px;
+}
+.Contact h2 .contact-p{
+    font-size: 50px;
 }
